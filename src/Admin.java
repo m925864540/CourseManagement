@@ -56,7 +56,6 @@ public class Admin {
 		System.out.println("Enter Student ID Number: ");
 		studentID=scan.nextInt();
 		
-		int i=0;
 		for(Student s: studentList) {
 			//if(studentList.contains(studentID)) {
 			if(s.getIDNumber()==studentID) {
@@ -92,9 +91,9 @@ public class Admin {
 					}
 				}
 			}
-			i++;
-			if(i==studentList.size()) {
-				System.out.println("Cannot Find Student.");
+			else {
+				System.out.println("Student ID not found...");
+				break;
 			}
 		}//end of enhanced for loop.
 	}
