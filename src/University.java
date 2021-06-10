@@ -182,7 +182,7 @@ public class University {
 			this.admin=new Admin(firstName,lastName, userName, passWord);
 			adminList.add(this.admin);
 			adminUserPassList.put(userName, passWord);	//put user name and password to the list.
-			System.out.println("\nAdmin Account: "+userName+" successfully created.");
+			//System.out.println("\nAdmin Account: "+userName+" successfully created.");
 		}
 		return true;
 	}
