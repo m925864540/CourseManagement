@@ -1,6 +1,12 @@
 # CourseManagement
 
-A practice course management system written in Java that allows provides two roles: students and admin. Where student can register for an account and register for courses, and admin can check the status of a student.
+A practice course management system written in Java that allows provides two roles: students and admin.
+
+Students are provides with the option to register for an account and login.
+When login, students have the option to add courses, remove courses, get the current schedule, and get the courses fee.
+
+Admin are provides with the option to see the whole student list, view individual students information, including their schedule, fee, name, and account information.
+
 This program is display in console without GUI, might add later.
 
 ![image](https://user-images.githubusercontent.com/72901256/121606669-97d2c600-ca1c-11eb-82f2-d35fe1ed8e8f.png)
